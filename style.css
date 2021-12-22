@@ -1,0 +1,42 @@
+.bricks--component-text span,
+.bricks--component-button,
+.bricks-form__label,
+.bricks-form__input {
+	font-family: "Circular Std Medium",sans-serif !important;	
+}
+
+.bricks--component-button {
+	font-weight: 200 !important;
+}
+/* Customization Header Submenu  */
+header .header-navigation li:hover {
+	opacity: initial;
+}
+
+.main-navigation > li {
+	position: relative;
+}
+
+@media screen and (min-width: 768px) {
+	.main-navigation > li:hover .sub-menu {
+		display: block;
+		opacity: initial;
+	}	
+}
+
+.main-navigation li:hover > a {
+	opacity: 0.75;
+}
+
+.main-navigation .sub-menu {
+	display: none;
+	background: #ffffff;
+	min-width: 150px;
+	padding: 1rem;
+	position: absolute;
+}
+
+.main-navigation .sub-menu a {
+	color: #0a146b;
+	font-size: 1.25rem;
+}
